@@ -60,7 +60,7 @@ class Syllabus{
             //image(syllabusImage, 0,-displayHeight*4,displayWidth, displayHeight*5);
             //image(syllabusImage, displayWidth/4  +100 ,displayHeight - displayHeight, displayWidth - 800, displayHeight - 150);
             imageMode(CENTER)
-            image(syllabusImage, displayWidth ,displayHeight, displayWidth, displayHeight );
+            image(syllabusImage, displayWidth ,displayHeight, displayWidth + displayWidth/2, displayHeight + displayHeight/2 );
             
 
             
